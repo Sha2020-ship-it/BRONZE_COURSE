@@ -10,5 +10,4 @@ int main() {
     cin >> b1x1 >> b1x1 >> b1x2 >> b1y2;
     cin >> b2x1 >> b2y1 >> b2x2 >> b2y2;
     cin >> trx1 >> try1 >> trx2 >> try2;
-\
 }
