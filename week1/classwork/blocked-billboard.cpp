@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main() {  
     bool cover (2001);
     int b1x1, b1y1, b1x2, b1y2;
     int b2x1, b2y1, b2x2, b2y2;
