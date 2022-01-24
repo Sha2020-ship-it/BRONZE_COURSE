@@ -9,9 +9,8 @@ struct Rect {
 };
 
 int intersection(struct Rect *p, struct Rect *q) {
-	int xOverlap = max(0, min(p->x2, q->x2) - max(p->x1, q->x1));
-	int yOverlap = max(0, min(p->y2, q->y2) - max(p->y1, q->y1));
-	return xOverlap * yOverlap;
+	int x = abs(abs(q->x1) - abs(p->x2));
+    int y = abs(abs(q->y2) - abs(p->y1));
 }
 
 int main() {
