@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-	// freopen("balancing.in", "r", stdin);
-	// freopen("balancing.out", "w", stdout);
+	freopen("balancing.in", "r", stdin);
+	freopen("balancing.out", "w", stdout);
 	int n, b;
 	cin >> n >> b;
 	vector<int> xval(n), yval(n);

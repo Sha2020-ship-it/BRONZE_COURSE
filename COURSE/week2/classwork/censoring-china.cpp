@@ -18,7 +18,7 @@
         string ans = "";
         for(int i = 0; i < s.size(); i++) {
             ans += s[i];
-            if (ans.size() >= t.size() && ans.substr(ans.size() - t.size(), t.size()) == t) {
+            if (ans.size() >=    t.size() && ans.substr(ans.size() - t.size(), t.size()) == t) {
                 ans.resize(ans.size() - t.size());
             }
         }
