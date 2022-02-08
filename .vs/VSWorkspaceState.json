@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\COURSE",
+    "\\COURSE\\week5",
+    "\\COURSE\\week5\\homework"
   ],
+  "SelectedNode": "\\COURSE\\week5\\homework\\p1-team-tic-tac-toe.cpp",
   "PreviewInSolutionExplorer": false
 }
